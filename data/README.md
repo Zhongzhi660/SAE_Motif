@@ -19,11 +19,11 @@ In the public code release, we will include all collected attack data used by th
 
 The released attack set contains:
 
-- `3 * 3 * 5 * 400` attack samples in total
+- `6 * 3 * 5 * 400` attack samples in total
 
 This count corresponds to the full cross-product of:
 
-- `3` attack-source settings
+- `6` attack-target settings
 - `3` sampled attack outputs per prompt
 - `5` attack methods
 - `400` prompts per method
