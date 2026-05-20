@@ -203,7 +203,7 @@ If feature explanations are available, add:
 
 ## Data Format
 
-The package includes a tiny toy dataset for demonstration. In the public release, we will also provide the full experimental data used by the core pipeline. The released raw attack set contains 36,000 attack samples and 116,923 interaction turns, spanning 6 source-target settings, 5 attack methods, 400 attack goals per method, and 3 sampled outputs per goal. Each attack method contributes 7,200 samples in total. We will also release the non-attack reference data, processed input files, method labels, and SAE-format activation files.
+The package includes a tiny toy dataset for demonstration. In the public release, we will also provide the full experimental data used by the core pipeline. The released raw attack set contains **36,000 attack samples** and **116,923 interaction turns**, spanning 6 source-target settings, 5 attack methods, 400 attack goals per method, and 3 sampled outputs per goal. Each attack method contributes 7,200 samples in total. We will also release the non-attack reference data, processed input files, method labels, and SAE-format activation files.
 
 Expected layout:
 
