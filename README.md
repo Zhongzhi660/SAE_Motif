@@ -1,6 +1,6 @@
-# Anonymous Motif Analysis Package
+# Beyond Prompts: Discovering Jailbreak Motifs in Sparse Feature Space
 
-This repository provides a minimal, self-contained package for SAE-based motif analysis of attack and non-attack prompts.
+This is the official implementation of the paper: `Discovering Jailbreak Motifs in Sparse Feature Space`.
 
 ---
 
@@ -8,7 +8,7 @@ This repository provides a minimal, self-contained package for SAE-based motif a
 
 **Analyze jailbreaks in feature space, not only in prompt space.**
 
-Jailbreak queries often look very different on the surface, but many of them are built from a much smaller set of reusable latent patterns. Instead of treating each jailbreak prompt as an isolated attack instance, this project identifies **motifs**: recurring co-activation patterns of sparse autoencoder (SAE) features.
+Our starting point is that the essence of many jailbreak attacks is **compositional**. Surface forms may vary substantially, but attacks are often assembled from a smaller set of reusable latent building blocks. If attacks are fundamentally compositional, then we need a corresponding basic data structure to describe and explain them. This project introduces **motifs** as that structure: recurring co-activation patterns of sparse autoencoder (SAE) features.
 
 By extracting sparse features from model activations and decomposing them with non-negative matrix factorization (NMF), we can:
 
@@ -203,7 +203,7 @@ If feature explanations are available, add:
 
 ## Data Format
 
-The package includes a tiny toy dataset for demonstration, but not the full experimental data or pretrained checkpoints.
+The package includes a tiny toy dataset for demonstration. In the public release, we will also provide the full experimental data used by the core pipeline. The released raw attack set contains 36,000 attack samples and 116,923 interaction turns, spanning 6 source-target settings, 5 attack methods, 400 attack goals per method, and 3 sampled outputs per goal. Each attack method contributes 7,200 samples in total. We will also release the non-attack reference data, processed input files, method labels, and SAE-format activation files.
 
 Expected layout:
 
@@ -224,12 +224,3 @@ For full file-format details, see:
 ```text
 data/README.md
 ```
-
----
-
-## Notes
-
-- This package is intentionally minimal.
-- It excludes extended experiments, logs, figures, checkpoints, and manuscript files.
-- Local absolute paths and machine-specific cache paths were removed.
-- The included sample data is only for illustrating formats and basic pipeline plumbing; it is not intended to reproduce the full experimental results.
