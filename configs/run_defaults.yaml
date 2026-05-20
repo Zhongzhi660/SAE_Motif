@@ -1,0 +1,4 @@
+random_seed: 42
+nmf_k: 40
+threshold: 2.0
+max_iter: 500

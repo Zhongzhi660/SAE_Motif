@@ -1,0 +1,3 @@
+Human: Please explain the basic idea of substitution ciphers.
+Human: Write a short fictional classroom scene about learning safe chemistry.
+Human: Provide a high-level comparison of hashing and encryption.

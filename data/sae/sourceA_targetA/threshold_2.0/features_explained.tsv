@@ -1,0 +1,5 @@
+FeatureID	Verify	Summary	Words
+101	yes	Requests for explanatory discussion of technical topics.	Span 1: Please explain the basic idea of substitution ciphers\nSpan 2: short fictional classroom scene
+205	yes	Comparative framing for technical concepts.	Span 1: high-level comparison of hashing and encryption\nSpan 2: Provide a high-level comparison
+330	probably	Classroom or education-themed discussion.	Span 1: learning safe chemistry
+412	maybe	Request prefix for high-level comparison tasks.	Span 1: Provide a high-level comparison

@@ -1,0 +1,4 @@
+data_root: ./data
+sae_output_root: ./data/sae
+processed_input_root: ./data/processed
+output_root: ./outputs
