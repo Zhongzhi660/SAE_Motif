@@ -6,7 +6,7 @@ This is the official implementation of the paper: `Discovering Jailbreak Motifs 
 
 ## Core Insight
 
-**Analyze jailbreaks in feature space, not only in prompt space.**
+✨ **Analyze jailbreaks in feature space, not only in prompt space.**
 
 Our starting point is that the essence of many jailbreak attacks is **compositional**. Surface forms may vary substantially, but attacks are often assembled from a smaller set of reusable latent building blocks. If attacks are fundamentally compositional, then we need a corresponding basic data structure to describe and explain them. This project introduces **motifs** as that structure: recurring co-activation patterns of sparse autoencoder (SAE) features.
 
