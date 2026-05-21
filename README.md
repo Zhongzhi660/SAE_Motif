@@ -6,7 +6,7 @@ This is the official implementation of the paper: `Discovering Jailbreak Motifs 
 
 ## 🌟 Forthcoming Dataset Release
 
-This repository is intended to host a large-scale jailbreak attack dataset for studying the structure, diversity, and transferability of LLM attack behaviors. The forthcoming raw attack set will contain **36,000 attack samples** and **116,923 interaction turns**, spanning **6 source-target settings**, **5 attack methods**, **400 attack goals per method**, and **3 sampled outputs per goal**. Each attack method will contribute **7,200 samples**, enabling balanced evaluation across diverse attack strategies. We will also release non-attack reference data, processed input files, method labels, and SAE-formatted activation files to support reproducible research on jailbreak detection, representation analysis, and safety defense.
+This repository is intended to host a large-scale jailbreak attack dataset for studying the structure, diversity, and transferability of LLM attack behaviors. The forthcoming raw attack set will contain **36,000 attack samples** and **116,923 interaction turns**, spanning **6 source-target settings**, **5 attack methods**, **400 attack goals per method**, and **3 sampled outputs per goal**. Each attack method will contribute **7,200 samples**, enabling balanced evaluation across diverse attack strategies. We will also release non-attack reference data, processed input files, method labels, and trained SAE weights to support reproducible research on jailbreak detection, representation analysis, and safety defense.
 
 ---
 
