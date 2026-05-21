@@ -10,8 +10,6 @@ This repository is intended to host a large-scale jailbreak attack dataset for s
 
 ---
 
----
-
 ## Core Insight
 
 ✨ **Analyze jailbreaks in feature space, not only in prompt space.**
