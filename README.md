@@ -6,7 +6,7 @@ This is the official implementation of the paper: `Discovering Jailbreak Motifs 
 
 ## 🌟 Forthcoming Dataset Release
 
-This repository is intended to host a large-scale jailbreak attack dataset for studying the structure, diversity, and transferability of LLM attack behaviors. The forthcoming raw attack set will contain **36,000 attack samples** and **116,923 interaction turns**, spanning **6 source-target settings**, **5 attack methods**, **400 attack goals per method**, and **3 sampled outputs per goal**. Each attack method will contribute **7,200 samples**, enabling balanced evaluation across diverse attack strategies. We will also release non-attack reference data, processed input files, method labels, and trained SAE weights to support reproducible research on jailbreak detection, representation analysis, and safety defense.
+This repository is intended to host a large-scale jailbreak attack dataset for studying the structure, diversity, and transferability of LLM attack behaviors. The forthcoming raw attack set will contain **36,000 attack samples** and **116,923 interaction turns**, spanning **6 source-target settings**, **5 attack methods**, **400 attack goals per method**, and **3 sampled outputs per goal**. Each attack method will contribute **6,000 samples**, enabling balanced evaluation across diverse attack strategies. We will also release non-attack reference data, processed input files, method labels, and trained SAE weights to support reproducible research on jailbreak detection, representation analysis, and safety defense.
 
 ---
 
@@ -209,7 +209,7 @@ If feature explanations are available, add:
 
 ## Attack Data
 
-The package includes a tiny toy dataset for demonstration. In the public release, we will also provide the full experimental data used by the core pipeline. The released raw attack set contains **36,000 attack samples** and **116,923 interaction turns**, spanning 6 source-target settings, 5 attack methods, 400 attack goals per method, and 3 sampled outputs per goal. Each attack method contributes 7,200 samples in total. We will also release the non-attack reference data, processed input files, method labels, and SAE-format activation files.
+The package includes a tiny toy dataset for demonstration. In the public release, we will also provide the full experimental data used by the core pipeline. The released raw attack set contains **36,000 attack samples** and **116,923 interaction turns**, spanning 6 source-target settings, 5 attack methods, 400 attack goals per method, and 3 sampled outputs per goal. Each attack method contributes 6,000 samples in total. We will also release the non-attack reference data, processed input files, method labels, and SAE-format activation files.
 
 Expected layout:
 
